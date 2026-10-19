@@ -1,0 +1,16 @@
+{
+    "name": "digital-waterside-frontend",
+    "private": true,
+    "packageManager": "pnpm@9.12.0",
+    "scripts": {
+        "dev": "turbo dev",
+        "build": "turbo build",
+        "lint": "turbo lint",
+        "typecheck": "turbo typecheck"
+    },
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-next": "14.2.15",
+        "turbo": "^2.1.3"
+    }
+}

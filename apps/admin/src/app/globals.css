@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    color-scheme: light;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #18302d;
+    background: #f5f8f6;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 64px 24px;
+}
